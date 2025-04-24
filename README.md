@@ -1,3 +1,4 @@
+
 # 🎬 CineVerse - A Movie Discovery Platform
 
 **CineVerse** is a sleek, powerful movie discovery application designed to help users explore and enjoy the world of cinema. Whether you're a casual viewer or a hardcore cinephile, CineVerse provides an intuitive and feature-rich platform to discover trending, top-rated, and upcoming movies.
@@ -11,6 +12,11 @@ This project uses the [TMDb API](https://developer.themoviedb.org/) for movie da
 1. Sign up at [TMDb](https://www.themoviedb.org/) and generate an API key.
 2. Create a `.env` file in the project root.
 3. Add the following line to the `.env` file:
+
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+
+> ⚠️ Do not share your `.env` file or your API key publicly.  
+> It is included in `.gitignore` and should never be committed.
 
 ---
 
@@ -51,3 +57,30 @@ CineVerse-A-Movie-Discovery-Platform/
 │   ├── context/         # (If used) Global state
 │   ├── App.js
 │   └── index.js
+
+
+
+⸻
+
+🚀 Getting Started
+	1.	Clone the repository
+
+git clone https://github.com/Udaya19SRI/CineVerse-A-Movie-Discovery-Platform.git
+cd CineVerse-A-Movie-Discovery-Platform
+
+	2.	Install dependencies
+
+npm install
+
+	3.	Start the development server
+
+npm run dev
+
+	4.	Visit http://localhost:5173 in your browser.
+
+⸻
+
+📝 License
+
+© 2025 Udayasri. All rights reserved.
+
