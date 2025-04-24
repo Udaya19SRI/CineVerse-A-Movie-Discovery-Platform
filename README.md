@@ -1,12 +1,45 @@
-# React + Vite
+# 🎬 CineVerse - A Movie Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CineVerse** is a sleek, powerful movie discovery application designed to help users explore and enjoy the world of cinema. Whether you're a casual viewer or a hardcore cinephile, CineVerse provides an intuitive and feature-rich platform to discover trending, top-rated, and upcoming movies.
 
-Currently, two official plugins are available:
+Built with **React.js** and styled using modern UI frameworks, CineVerse also allows users to **save their favorite movies**, making it a personalized movie tracking experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Search** movies by name with real-time suggestions
+- 📈 **Browse** through Trending, Top Rated, and Upcoming categories
+- 💾 **Favorites**: Save your favorite movies for easy access
+- 📖 **Movie Details**: View overview, ratings, release dates, and posters
+- 📱 **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
+- 💡 Clean and modern UI with smooth navigation
+
+---
+
+## 🛠️ Tech Stack
+
+| Category     | Tools/Technologies                             |
+|--------------|------------------------------------------------|
+| **Frontend** | React.js, JavaScript, HTML5, CSS3              |
+| **Styling**  | styled-components (or plain CSS if applicable) |
+| **API**      | [TMDb API](https://developer.themoviedb.org/) |
+| **Versioning** | Git & GitHub                                |
+| **Reference** | [TechWithTim - Learn React In One Project](https://youtu.be/G6D9cBaLViA?si=W0ECkzOY_6DQykun)
+
+---
+
+## 📂 Project Structure
+
+```bash
+CineVerse-A-Movie-Discovery-Platform/
+│
+├── public/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Home, Favorites, etc.
+│   ├── services/        # API logic
+│   ├── assets/          # Images, icons
+│   ├── context/         # (If used) Global state
+│   ├── App.js
+│   └── index.js
