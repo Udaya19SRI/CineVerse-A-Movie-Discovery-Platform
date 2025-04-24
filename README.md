@@ -4,6 +4,14 @@
 
 Built with **React.js** and styled using modern UI frameworks, CineVerse also allows users to **save their favorite movies**, making it a personalized movie tracking experience.
 
+### 🔐 API Key Setup
+
+This project uses the [TMDb API](https://developer.themoviedb.org/) for movie data. To get started:
+
+1. Sign up at [TMDb](https://www.themoviedb.org/) and generate an API key.
+2. Create a `.env` file in the project root.
+3. Add the following line to the `.env` file:
+
 ---
 
 ## ✨ Key Features
